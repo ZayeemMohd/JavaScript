@@ -1,5 +1,9 @@
+console.log('\n')
+//shopping Cart CRUD
+
 var shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 
+console.log('Shopping Cart: ')
 console.log(shoppingCart);
 
 // add Meat if it is not exist
@@ -46,6 +50,7 @@ shoppingCart[teaIndex] = "Green Tea"
 console.log('Tea modified to green tea');
 console.log(shoppingCart)
 
+console.log('\n')
 // Countries array 
 
 var countries = [' Australia', ' Pakistan', ' Bangladesh', ' England', ' Srilanka']
@@ -58,6 +63,7 @@ if(countries.includes('India')){
     console.log('India is added \n' + countries)
 }
 
+console.log('\n')
 // concat 2 array and store in a variable
 
 var arr1 = ['HTML','CSS','JS','React']; 
@@ -67,3 +73,5 @@ console.log("Second array is: " + arr2);
 
 var fullStack = arr1.concat(arr2);
 console.log("fullStack variable is: " + fullStack)
+
+console.log('\n')

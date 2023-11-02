@@ -29,6 +29,9 @@ console.log(mixedDataTypes)
 console.log("lenght of data types array is")
 console.log(mixedDataTypes.length)
 
+
+
+
 var itCompanies = ["Facebook",'Google',"Microsoft",'Apple','IBM','Oracle','Amazon']
 console.log(itCompanies)
 
@@ -55,9 +58,11 @@ for (var i=0 ; i<itCompanies.length ; i++){
 }
 
 
+
+const f = new Intl.ListFormat("en-us") /* ("en-us",{type: 'disjunction'}) */
 console.log("Joined sentence is:")
 var jArr = [" are big IT Companies"]
-console.log(itCompanies.join(",")+jArr)
+console.log(f.format(itCompanies)+jArr)
 
 
 var something = "Google"
