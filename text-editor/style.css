@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+#container{
+    height: 300px;
+    width: 700px;
+    background-color: rgb(78, 131, 131);
+    margin: 25px auto;
+}
+
+#container p{
+    color: #fff;
+    font-size: 20px;
+}
+
+input{
+    font-size: 28px;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
