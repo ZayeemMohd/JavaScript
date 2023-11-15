@@ -11,9 +11,9 @@ generateBtn.addEventListener('click',()=>{
 })
 
 function randomColor(){
-    var a = Math.floor(Math.random()*255)
-    var b = Math.floor(Math.random()*255)
-    var c = Math.floor(Math.random()*255)
+    var a = Math.floor(Math.random()*256)
+    var b = Math.floor(Math.random()*256)
+    var c = Math.floor(Math.random()*256)
 
     var color = `RGB(${a},${b},${c})`
     return color;

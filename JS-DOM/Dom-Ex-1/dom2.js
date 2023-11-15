@@ -152,9 +152,9 @@ for(paragraph of PnodeListQuery){
 
 
 setInterval(()=>{
-    var r = Math.round(Math.random()*255+100)
-    var g = Math.round(Math.random()*255+50)
-    var b = Math.round(Math.random()*255+80)
+    var r = Math.floor(Math.random()*56)+200
+    var g = Math.floor(Math.random()*101)
+    var b = Math.floor(Math.random()*81)+40
 
     console.log(r,g,b)
 

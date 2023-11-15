@@ -79,21 +79,6 @@ window.addEventListener('load', () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let title = document.querySelector('#title')
 // let description = document.querySelector('#description')
 // let addTaskBtn = document.querySelector('#addBtn')
