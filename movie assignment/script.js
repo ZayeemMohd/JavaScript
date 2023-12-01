@@ -4,6 +4,13 @@ const moviesList = document.getElementById('moviesList');
 
 // const apiKey = 'da5b5545'; 
 
+input.addEventListener("keypress", function(event) {
+    
+//     if (event.key === "Enter") {
+      
+//     }
+//   });
+
 searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value.trim();
   
@@ -33,6 +40,7 @@ searchButton.addEventListener('click', () => {
 });
 
 function createMovieCard(movie) {
+
   const movieCard = document.createElement('div');
   movieCard.classList.add('movie-card');
 
