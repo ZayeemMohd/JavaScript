@@ -58,5 +58,5 @@ function createMovieCard(movie) {
   movieCard.appendChild(movieLink);
 
   return movieCard;
+  
 }
-
