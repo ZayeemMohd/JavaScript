@@ -1,0 +1,29 @@
+.colorBoxes {
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid black; */
+}
+
+.container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#box1 {
+  background-color: red;
+}
+
+#box2 {
+  background-color: blue;
+}
+
+#box3 {
+  background-color: yellow;
+}
+
+#box4 {
+  background-color: green;
+}

@@ -18,3 +18,4 @@ function randomColor(){
     var color = `RGB(${a},${b},${c})`
     return color;
 }
+
